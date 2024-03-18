@@ -32,6 +32,8 @@ background-color: #222831 ;
 
 .container{
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 aside{
     flex: 1;
@@ -39,4 +41,24 @@ aside{
 
 main{
     flex: 2;
+}
+
+nav ul{
+    list-style: none; /*quitar puntos*/
+    display: flex;
+    flex-direction: row; /*como ver la lista*/
+    justify-content: space-around;
+    background-color: #76ABAE;
+    border-radius: .3rem;
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+nav ul li:hover{
+    cursor: pointer;
+    background-color: aquamarine;
+    transition: .3s ease-in;
 }
