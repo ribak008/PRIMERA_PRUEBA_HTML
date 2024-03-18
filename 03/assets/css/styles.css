@@ -19,10 +19,24 @@ background-color: #222831 ;
 
 /*margen*/
 .distancia-derecha{
-    margin-right: 500px;
+    margin-right: 80%;
+}
+.distancia-izquierda{
+    margin-left: -70%;
 }
 
 /*paddings*/
 .padding{
     padding: 20px;
+}
+
+.container{
+    display: flex;
+}
+aside{
+    flex: 1;
+}
+
+main{
+    flex: 2;
 }
