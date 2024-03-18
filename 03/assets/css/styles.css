@@ -1,0 +1,28 @@
+/*Colores de background*/
+.fondo-color-1{
+background-color: #222831 ;
+}
+.fondo-color-2{
+    background-color: #31363F;
+}
+.fondo-color-3{
+    background-color: #76ABAE;
+}
+.fondo-color-4{
+    background-color: #EEEEEE;
+}
+
+/*centrar*/
+.centrar-texto{
+    text-align: center;
+}
+
+/*margen*/
+.distancia-derecha{
+    margin-right: 500px;
+}
+
+/*paddings*/
+.padding{
+    padding: 20px;
+}
